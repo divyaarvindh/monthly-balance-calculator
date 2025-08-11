@@ -1,0 +1,59 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f9ff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        input, select {
+            padding: 8px;
+            margin: 5px;
+            width: 50%;
+        }
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+            background: #4cafef;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #3498db;
+        }
+        .entry-list {
+            text-align: left;
+            margin-top: 15px;
+        }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            margin-top: 15px;
+        }
+        .day {
+            padding: 5px;
+            border-radius: 4px;
+            background: #e2e8f0;
+        }
+        .highlight {
+            background: #90ee90;
+        }
+        .result {
+            margin-top: 15px;
+            font-weight: bold;
+            color: green;
+        }
+        .fail {
+            color: red;
+        }
+    
