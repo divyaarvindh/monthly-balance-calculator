@@ -1,5 +1,4 @@
 
-          /* Base styles */
 body {
     font-family: Arial, sans-serif;
     background: #f0f9ff;
@@ -13,14 +12,11 @@ body {
     max-width: 500px;
     margin: auto;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 input, select {
     padding: 8px;
     margin: 5px;
-    width: 80%;
+    width: 50%;
 }
 button {
     padding: 8px 15px;
@@ -60,33 +56,4 @@ button:hover {
 .fail {
     color: red;
 }
-
-/* Mobile view styles */
-@media (max-width: 576px) {
-    body {
-        padding: 10px;
-    }
-    .container {
-        padding: 15px;
-        max-width: 100%;
-    }
-    input, select {
-        width: 95%;
-        font-size: 14px;
-    }
-    button {
-        width: 95%;
-        font-size: 14px;
-    }
-    .calendar {
-        grid-template-columns: repeat(5, 1fr); /* Fewer columns for better fit */
-        gap: 3px;
-    }
-    .day {
-        font-size: 12px;
-        padding: 4px;
-    }
-    h2, h3 {
-        font-size: 18px;
-    }
-}
+ 
